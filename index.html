@@ -1,0 +1,944 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/stylesheets/jquery.tocify.css" />
+	<link type="text/css" rel="stylesheet" href="help.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic,300,300italic,500italic,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'>
+	<script>
+
+$(function() {
+	var toc = $("#toc").tocify({
+		selectors: "h2,h3,h4",
+		highlightOnScroll: true,
+		scrollTo: 120,
+		smoothScroll: true,
+		showEffectSpeed:0,
+		hideEffectSpeed:180
+	});
+});
+
+	</script>
+
+</head>
+<body>
+	<header>
+		<h1>What can we help you with?</h1>
+	</header>
+<section aria-label: "navigation">
+<div id="toc"></div>
+</section>
+
+<div id="main">
+
+<h2 id='overview'>Quick overview</h2>
+
+<section aria-labelledby='what-is-loomio' role='region'>
+<h3 id='what-is-loomio'>What is Loomio?</h3>
+<p><p>Loomio is a simple, user-friendly online tool for collaborative decision-making. Loomio lets you host discussions online, invite the right people to participate, come to timely decisions and transform deliberation into real-world action.</p>
+</p>
+</section>
+
+<section aria-labelledby='how-loomio-works' role='region'>
+<h3 id='how-loomio-works'>How Loomio works</h3>
+
+<ul id='get-started'>
+<li>
+ <strong><a href='#starting-new-group'>Start a group</a></strong> to collaborate with people on Loomio
+</li>
+<li>
+ <strong><a href='#inviting-members'>Invite people</a></strong> into your group
+</li>
+<li>
+ <strong><a href='#starting-discussions'>Start a discussion</a></strong> on any topic
+</li>
+<li>
+ <strong><a href='#starting-proposals'>Make a proposal</a></strong> to see how everyone feels about a particular course of action
+</li>
+<li>
+ <strong><a href='#stating-positions'>Decide together</a></strong> &ndash; anyone can agree, abstain, disagree, or block – so you can see how everyone feels about the proposal
+</li>
+</ul>
+
+</section>
+
+<section aria-labelledby='getting-started' role='region'>
+<h3 id='getting-started'>Getting started</h3>
+<p>Your introduction to Loomio might happen in a couple of ways. Here’s some information about each entry point:
+</p>
+<h4 class='anchor' id='starting-new-group'>Starting a group from the home page</h4>
+<div class='screenshot'>
+<img alt="log in page with single sign-on options" src="images/log in page.png" />
+</div>
+
+
+<p>You can start a new group from the Loomio home page by clicking the <strong>Try out Loomio</strong> button. Enter your name, email address and group name into the <strong><a href="https://www.loomio.org/start_group">Start a new group</a></strong> form. You will receive an email containing a link that will take you to your new group.</p>
+
+<h4 class='anchor' id='invited-into-group'>You are invited into a Loomio group</h4>
+
+<p>When you receive an invitation to join an existing Loomio group, you will receive a unique invitation link by email.</p>
+
+<p>If this is your first time using Loomio you will be prompted to create an account. If you already have a Loomio account you will be taken straight to the group after you log in.</p>
+
+<h4 class='anchor' id='single-sign-on'>Single sign-on</h4>
+
+
+<p>Loomio allows sign-up with Facebook, Google, Twitter or Persona. If you do not have a Loomio account you can sign up using any of these third-party services by clicking the corresponding button on the <a title="Log in page" href="https://loomio.org/sign_in"><strong>Log in</strong> page</a>. If you are currently logged in to Google, Facebook, Twitter or Persona, this existing account will be detected. Otherwise you will be prompted to sign in. When Loomio recognises your existing third-party account, follow the prompts to create your Loomio account.</p>
+
+<p>You may also associate your Google, Facebook, Twitter or Persona account with an existing Loomio account. Ensure you are logged out, visit the <a title="Log in page" href="https://loomio.org/sign_in"><strong>Log in</strong> page</a> and select your preferred platform. Loomio will ask you if you want to create a new account with your existing account on your chosen platform, or link it to your existing Loomio account.</p>
+
+
+</section>
+
+<h2 id='manual'>Loomio manual</h2>
+
+<section aria-labelledby='group-settings' role='region'>
+<h3 id='group-settings'>Group settings</h3>
+
+<div class='screenshot'>
+<img alt="options dropdown" src="images/options dropdown.png" />
+</div>
+
+<p>Group coordinators can edit group settings: <strong>Profile</strong>, <strong>Privacy</strong> and <strong>Permissions</strong>.</p>
+
+<p>To edit your group settings, open the <strong>Options</strong> menu on the group page and select <strong>Edit Group Settings</strong>.</p>
+
+<h4 class='anchor' id='group-profile'>Group profile</h4>
+<div class='screenshot'>
+<img alt="edit group settings" src="images/edit group settings.png" />
+</div>
+<p>Your group profile consists of your group name and group description.</p>
+
+<p>It’s helpful if the description gives new members a clear understanding of what that group is for. When adding a group description, describe what your group intends to do, for example, <em>A public group for us to approve requests for use of the gallery space</em> or <em>The space for our board members to consider budget proposals</em>.
+</p>
+
+<h4 class='anchor' id='group-privacy'>Group privacy</h4>
+
+<div class='screenshot'>
+<img alt="group privacy section of group settings form" src="https://www.loomio.org/assets/group-privacy-a63915e82adefb2999de2b73fd7f577785bd1025e0eee659ecb12f992c33c8b2.png" />
+</div>
+
+
+<p>Your privacy settings determine who can find your group, who can see the threads in your group, and how people join.</p>
+
+<p>When you start a new group, only you and people you invite will be able to find it, and only you will be able to invite new people.</p>
+
+<h5>Who can find this group?</h5>
+<p>If you choose <strong>Anyone</strong>, the group will be publicly searchable. Making your group public makes it easy for people to find your group, without you having to send them a personal invitation.</p>
+
+<p>If you choose <strong>Members only</strong> the group can only be found by invited members: it will not come up in public search results. You can only have private discussions in a Members only group.</p>
+
+
+<h5>How do people join?</h5>
+
+
+<p>Groups can be <strong>Open</strong> to join, accessible <strong>By request</strong> or <strong>By invitation</strong>.</p>
+
+<p>The <strong>Open</strong> option means anyone with a Loomio account can join the group. A new visitor to your group page will be able to join your group immediately with the <strong>Join group</strong> button. (Note: <strong>Members only</strong> groups cannot be set to <strong>Open</strong>).</p>
+
+<p>The <strong>By request</strong> option means anyone can ask to join the group. A new visitor to your group page will find an <strong>Ask to join group</strong> button. When someone asks to join, the group coordinators will be notified that there is a new membership request. Membership requests can be approved or ignored. (Note: <strong>Members only</strong> groups cannot be set to <strong>By Request</strong>).</p>
+
+<p>If you select <strong>Invitation only</strong>, no-one can join the group without being invited. Invitations are sent from the <a title="How to invite people" href="#inviting-members">Invite people</a> page.</p>
+
+
+<h5>How do people join?</h5>
+<p>Groups can be <strong>Open</strong> to join, accessible <strong>By request</strong> or <strong>By invitation</strong>.</p>
+<p>The <strong>Open</strong> option means anyone with a Loomio account can join the group. A new visitor to your group page will be able to join your group immediately with the <strong>Join group</strong> button. (Note: <strong>Members only</strong> groups cannot be set to <strong>Open</strong>).</p>
+
+<p>The <strong>By request</strong> option means anyone can ask to join the group. A new visitor to your group page will find an Ask to join group button. When someone asks to join, the group coordinators will be notified that there is a new membership request. Membership requests can be approved or ignored. (Note: Members only groups cannot be set to By Request).</p>
+
+<p>If you select <strong>Invitation only</strong>, no-one can join the group without being invited. Invitations are sent from the <a title="How to invite people" href="#inviting-members">Invite people</a> page.</p>
+
+<h5>Who can see threads?</h5>
+<p>This configures the default privacy setting for threads in your group. Threads can be <strong>Public only</strong>, <strong>Public and private</strong> or <strong>only visible to members</strong>.</p>
+<p>The <strong>Public threads only</strong> option means the content of all discussions will be visible to people who are not signed in to Loomio. They will still need to join the group to participate. (Note: this option is not applicable to <strong>Members only</strong> groups).</p>
+<p>The <strong>Allow public and private threads</strong> option means members of your group can choose whether discussions they start are public or private. (Note: this option is not applicable to <strong>Members only</strong> groups).</p>
+<p>If you select <strong>Only visible to members</strong>, all the threads in your group will be private. No one outside of your group will be able to see the content of your discussions.</p>
+
+<h4 class='anchor' id='group-permissions'>Group permissions – what can members do?</h4>
+
+<p>Coordinators can set the group permissions to configure what members can do in their group.</p>
+
+<h5>Invite and approve new members</h5>
+<p>This allows everyone in your group to invite new people in, and approve any membership requests. When it is deselected only group coordinators will be able to invite and approve new members.</p>
+
+<h5>Create sub-groups</h5>
+<p>This allows everyone in your group to create subgroups. When it is deselected only group coordinators will be able to create subgroups.</p>
+
+<h5>Start threads</h5>
+<p>This allows everyone in your group to start new threads. When it is deselected only group coordinators will be able to start discussions.</p>
+
+<h5>Edit the context of any thread in the group</h5>
+<p>This allows everyone in your group to edit the context of any thread. When it is deselected only group coordinators will be able to edit the thread context. (The person who started a thread can always edit the thread context.)</p>
+
+<h5>Edit their comments at any time</h5>
+<p>This allows everyone in your group to <a title="Editing commetns" href="#editing-comments">edit their comments</a> at any time. When it is deselected, a comment can only be edited until someone else participates in the thread.</p>
+
+<h5>Raise proposals</h5>
+<p>This allows anyone in your group to start a proposal within a thread. When this box is deselected only group coordinators will be able to raise proposals.</p>
+
+<h5>Vote on proposals</h5>
+<p>This allows everyone in your group to state their position on proposals. When it is deselected only group coordinators will be able to state their position on proposals.</p>
+
+</section>
+
+<section aria-labelledby='coordination' role='region'>
+<h3 id='coordination'>Coordinating your group</h3>
+<p>As a coordinator of a Loomio group you’re responsible for guiding your group through the process of learning how to use a new piece of software, as well as learning new processes for collaborating more effectively and making good decisions together. The tasks outlined below are only available to the coordinators of your group.</p>
+
+<h4 class='anchor' id='adding-cover-photo'>Adding a cover photo</h4>
+<p>When you first arrive in your new Loomio group, there will be a randomly selected cover photo, and a placeholder for your group logo. You can customise how your group looks by adding your own cover photo and logo. You can upload a new cover photo or logo by selecting the upload button <img class='icon' alt="cover photo upload icon" src="images/camera icon.png" /> in either section.</p>
+
+
+<h4 class='anchor' id='manage-membership'>Managing membership</h4>
+<div class='screenshot'>
+<img alt="manage members page" src="images/members page.png" />
+</div>
+
+<p>Group coordinators can add and remove members, and grant and remove coordinator permissions. These actions can be performed from the <strong>Members</strong> page, which is accessed via the <strong>Manage Members</strong> link in the <strong>Options</strong> menu on the Group page.</p>
+
+<h5>Adding/removing coordinators</h5>
+
+<p>On the <strong>Members</strong> page, there is a checkbox next to every member. When this checkbox is selected, the member is a coordinator. Deselecting the checkbox removes the coordinator permissions for that member.</p>
+
+<h5>Adding/removing group members</h5>
+<p>On the Members page, next to every member there is a Remove button <img class='icon' alt="Remove button" src="images/remove button.png" />. This button removes the member from your group.</p>
+
+
+<h5>Accepting/ignoring membership requests</h5>
+<div class='screenshot'>
+<img alt="pending membership requests in membership requests panel on group page" src="https://www.loomio.org/assets/pending-requests-f4bb89cda3866dfc45c9d45a04631c2837369fbd71728bde6754638ad2c996dc.png" />
+</div>
+<p>If your <a href="#group-privacy">group privacy settings</a> allow people to join your group <strong>By request</strong>, a coordinator will need to approve each membership request.
+As a group coordinator you will receive an email each time there is a request to approve.
+Clicking the link in the notification email will take you to the <strong>Membership requests</strong> page, where you can approve or decline the request.
+</p>
+
+<p>If there is a pending membership request it will also be visible on your group page in a <strong>Membership requests</strong> panel.
+Clicking the link in the panel will take you to the <strong>Membership requests</strong> page.
+</p>
+
+<p><img alt="membership requests page with pending request" src="https://www.loomio.org/assets/pending-request-344ab24909ccbdff0f03c0e8a689a17518a584d9a58debfc9dd75ad3aa26fe95.png" /></p>
+
+<h5>Emailing group members</h5>
+
+<div class='screenshot'>
+<img alt="email group members button" src="https://www.loomio.org/assets/email-group-members-ef6e13a9d0b2505d898847601b713a64a432619b7cedf4241af997d4a30cbedd.png" />
+</div>
+<p>If you want to send an email to all members of your group, you can do so from the <strong>Members</strong> page.
+Clicking the <strong>Email group members</strong> button at top right of the page will let you compose and send a message to everyone in your group.
+</p>
+
+
+<h5>Adding/removing coordinators</h5>
+<p>Only coordinators can add and remove coordinators.
+On the <strong>Members</strong> page, next to every member who is not already a coordinator, there will be a <strong>Make coordinator</strong> button.
+Clicking this button will give the corresponding member coordinator permissions.
+Next to every coordinator there will be a <strong>Remove coordinator</strong> button.
+Clicking this button removes the coordinator permissions for the corresponding coordinator.
+</p>
+
+<img alt="remove coordinator button on members page" src="https://www.loomio.org/assets/add-remove-coordinator-1496ca3929665dbdad4e722a02ff3f10bc6e55df6251d6bef85cbbc9ab81c9b6.png" />
+
+<h5>Adding/removing group members</h5>
+<p>Only coordinators can remove group members.
+On the <strong>Members</strong> page, next to every group member there will be a <strong>Remove</strong> button.
+Clicking this button removes the corresponding member from your group.
+</p>
+
+<h4 class='anchor' id='deactivating-groups'>Deactivating/archiving a group</h4>
+<div class='screenshot'>
+<img alt="deactivate group option in group dropdown" src="https://www.loomio.org/assets/deactivate-group-8054beef9e0e781e09c73a8ac35a209bf1c14301bf4351e5193233ba1438b241.png" />
+</div>
+
+<p>Deactivating your group means that your group members will no longer be able to access your group.
+If you are a group coordinator and you wish to deactivate your group you can do so by selecting <strong>De-activate group</strong> from the <strong>Options</strong> menu on the group page.
+Deactivated groups can be restored by a member of the Loomio team.
+To reactivate your deactivated group, contact the Loomio team by sending an email to <a href="/cdn-cgi/l/email-protection#492a26273d282a3d0925262624202667263b2e"><span class="__cf_email__" data-cfemail="ef8c80819b8e8c9baf838080828680c1809d88">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.
+</p>
+
+
+<h4 class='anchor' id='coordinator-tips'>Tips for engaging your group</h4>
+<h5>
+<a href='#customising-invitations'>Customise your invitation message</a>
+</h5>
+<h5>Create an engaging first proposal:</h5>
+<p>People will be excited to jump in and start participating when there’s an engaging proposal on the table.
+A good proposal contains a plan of action for the group, so that it’s immediately obvious what it means to agree or disagree.
+Think about how you can identify discussions/decisions the group is currently undertaking in person or by email that would be easier if they were on Loomio.
+Alternatively, if your group wants to get accustomed to using the tool before using it to address real decisions, you could start a light-hearted decision to give everyone a chance to play with the tool and see the decision-making process in action.
+</p>
+<h5>Encourage <a href="#mentioning">@mentioning</a>:</h5>
+<p>Another simple way to encourage people to engage in a discussion is to use the @mention feature to prompt specific people; this will send them an email to tell them they’ve been mentioned in a comment.</p>
+
+</section>
+
+<section aria-labelledby='inviting-members' role='region'>
+<h3 id='inviting-members'>Inviting new members</h3>
+<div class='screenshot'>
+<img alt="invite people button" src="https://www.loomio.org/assets/invite-people-button-795eea3286120f886807c654507b436792758a8af7467d48a725c6246d2eea74.png" />
+</div>
+
+<p>Depending on your <a href="#group-settings">group settings</a>, new members can be invited either by everyone in the group, or by coordinators only.
+The <strong>Invitations</strong> page is accessed by clicking the <strong>Invite people</strong> button on your group page.
+</p>
+
+<p>To invite new people into your group, enter their email addresses, separated by commas.
+You can choose to use Loomio's default message, or create a custom message.
+</p>
+
+<p class='anchor' id='customising-invitations'>Customising the invitation message can be a great opportunity to engage new members from the outset.
+The first question every new member will have is <strong><i>"what is this group for?"</i></strong>.
+Think about the simplest way you can describe the group: <strong><i>What do you want to achieve together?
+What types of decisions will you be making? Who will be involved?</i></strong> People will want to know why they’ve been invited, what’s expected of them, and why it’s worth their time to learn how to use a new tool.
+</p>
+
+<p>When you submit the invitations form an email will be sent to each of the email addresses you supplied, containing your message, and a unique invitation link:</p>
+
+<p><img alt="invitation email" src="https://www.loomio.org/assets/invitation-email-4c4e81cec8cb2a5b2ef375e719b49ec7007f671f7326ef0b5b067be0702d7175.png" /></p>
+
+<div class='screenshot'>
+<img alt="invitations form" src="https://www.loomio.org/assets/invitation-form-4d68e212573de61c1c5432035aa7fc9284164de2601b64c3d7e8619249d09c32.png" />
+</div>
+
+<h4 class='anchor' id='importing-contacts'>Importing contacts</h4>
+<p>Importing your Google contacts into Loomio makes it a lot easier to add people to your groups.
+Once your contacts have been imported you don’t need to fill in individual email addresses; you can just start typing names and suggestions will pop up.
+You can import your Google contacts from the <strong>Invite people</strong> page.
+</p>
+
+<div class='screenshot'>
+<img alt="import contacts link" src="https://www.loomio.org/assets/import-contacts-link-762efb3516cad33fa4528431fed3d75b2b5b7ec27222f94625aa223145497aa9.png" />
+<img alt="permission requirements for importing contacts" src="https://www.loomio.org/assets/import-contacts-permission-046ed20dbc95016c1559cd196aa397e8206ead1e988f9bc64a8630ec67eb257d.png" />
+</div>
+<p>Click the <strong>Import your contacts from Google</strong> link under the email addresses field.
+You will be prompted to grant Loomio permission to see your contact list.
+Loomio will use this information for no other purpose than helping you select people to add to your group.
+</p>
+
+
+<h4 class='anchor' id='pending-invitations'>Pending invitations</h4>
+<p>You can see a list of people who have been invited to join your group but have not yet accepted the invitation in a <strong>Pending invitations</strong> panel at the bottom of the <strong>Members</strong> index page.
+To access the <strong>Members</strong> page and view the pending invitations, click the <strong>More...</strong> link in the <strong>Members</strong> panel on the right-hand side of your group page.
+</p>
+
+<p><img alt="pending invitation" src="https://www.loomio.org/assets/pending-invitation-bacd7e61585516b833c02f56ab8014c063fdfeefc3f0386320b20c4b89203816.png" /></p>
+
+</section>
+
+<section aria-labelledby='discussion-threads' role='region'>
+<h3 id='discussion-threads'>Discussion threads</h3>
+<div class='screenshot'>
+<img alt="example discussion" src="https://www.loomio.org/assets/example-discussion-94930471114dd0933e81dec165b3d49c937c17bcd9cc7ebebe986461515eb2a0.png" />
+</div>
+
+<p>Discussion threads are where your group gets together to discuss a topic, exchange ideas and information, and make decisions.</p>
+<p>At the top of the page is the title of the thread, followed by the context panel. The discussion takes place on the left-hand side of the page. When there’s a decision for the group to make, the proposal comes up on the right.</p>
+<p>The group creator determines the <a href="#group-permissions">discussion permissions</a> when they set up their group, and any group coordinators can edit those settings at any point.</p>
+
+<h4 class='anchor' id='starting-discussions'>Starting a discussion</h4>
+
+<div class='screenshot'>
+<img alt="start discussion button" src="https://www.loomio.org/assets/start-discussion-b8318bf5d4e223cb423880992c7307b43bce534baabd8026ea01dd47d2bf4b16.png" />
+</div>
+
+
+<p>If you wish to start a new discussion you can do so from the <a href="#dashboard">dashboard</a>, or from your group page, by clicking on the <strong>Start a discussion</strong> button on the right-hand side of either page.
+If you start a discussion from the dashboard you’ll be asked to choose the group in which the discussion should take place.
+</p>
+
+
+<h4 class='anchor' id='providing-context'>Providing context</h4>
+
+<p>Once you've clicked the <strong>Start a discussion</strong> button, the subsequent form requires you to provide a <strong>title</strong> and <strong>context</strong> for your discussion.
+Make sure the title conveys the topic succinctly – what is the core message?
+Long discussion titles will be truncated on the dashboard.</p>
+<p>The context field allows you to elaborate on the title and provide any relevant background information.
+Try to provide all the background information someone might need to meaningfully participate – everything required for the group to have a productive and informed discussion.</p>
+<p>The discussion title and the information you provide for the context field will sit in a panel at the top of the discussion page.</p>
+<p>As the discussion progresses, the context panel can be updated as new information comes to light.
+As well as clarifying the topic, you can use this space for sharing resources, summarising the discussion as it progresses, or outlining the decision-making protocols your group is using.</p>
+<p>Loomio uses <strong>Markdown</strong> to let you format text and embed images. You can use Markdown in the context panel to format your discussion context, or to embed images.
+For more information on how to use Markdown, click the <a href="https://www.loomio.org/d/Wh7vHaTk/markdown-text-formatting-made-easy">"Help"</a> link next to the Markdown checkbox on the new discussion form, or visit the Markdown help page directly: <a href="/markdown" target="_blank">loomio.org/markdown</a>.</p>
+
+<h4 class='anchor' id='discussion-privacy'>Discussion privacy</h4>
+<div class='screenshot'>
+<img alt="new discussion form" src="https://www.loomio.org/assets/new-discussion-form-40d0001fd4b5dc0710dca9f4980e5d8d2023c3bd3c3add07bbd0bc2d99afa613.png" />
+</div>
+<p>Discussion privacy is determined by <a href="#group-privacy">group privacy</a>.
+If you are starting a discussion in a public group then you can choose whether your discussion is public (i.e. it is searchable and anyone can see it), or private (it will only be visible to members of your group).
+</p>
+
+<h4 class='anchor' id='editing-discussions'>Editing a discussion</h4>
+<div class='screenshot'>
+<img alt="edit discussion option in discussion dropdown" src="https://www.loomio.org/assets/edit-discussion-4d47d148777228f1daaf7f3e95179cb0f6fbff312e597918591874f66f4e3711.png" />
+</div>
+
+<p>Group members can edit the title, context and privacy of any discussion they have started at any time.
+Group coordinators can edit the title, context and privacy of any discussions taking place in groups they coordinate.
+The group creator determines whether or not group members can edit each others’ discussions (see <a href="#group-settings">group settings</a>), and any group coordinators have the ability to change the permissions around editing discussions.</p>
+<p>The option to edit a discussion will only be visible to group members with the correct permissions.
+If you have the correct permissions to edit a discussion, then you can do so by clicking the cog icon at the top-right of the discussion page, and then selecting the <strong>Edit discussion</strong> option from the dropdown menu.</p>
+
+
+<h4 class='anchor' id='moving-discussions'>Moving a discussion</h4>
+<div class='screenshot'>
+<img alt="move discussion form" src="https://www.loomio.org/assets/move-discussion-f76d64304e2ab69a9579d2ed7b4fe57b59b51a5953ac0431b0a7c0f2eae7738c.png" />
+</div>
+
+<p>In order to move a discussion from one group into another group, you must be either the discussion author or a coordinator of the group in which the discussion was created.
+You can also only move discussions between groups you are a member of.
+If you want to move a discussion, click the cog icon at the top-right of the discussion page and then select <strong>Move discussion</strong>.
+You will be asked to choose which of your groups you want to move the discussion to.
+If you move a public discussion into a group with discussions set to <strong>Private only</strong> then the discussion will be made private.
+</p>
+
+
+<h4 class='anchor' id='deleting-discussions'>Deleting a discussion</h4>
+<div class='screenshot'>
+<img alt="delete discussion option in discussion dropdown" src="https://www.loomio.org/assets/delete-discussion-b723fe2f88b4605671ae0931d29112c5055ac89f79ff677298d350754b5fd4bc.png" />
+</div>
+
+<p>Only group coordinators can delete discussions.
+When a discussion is deleted it is removed and cannot be restored.
+If you are a group coordinator and you wish to delete a discussion, visit the discussion page, click the cog icon and then select the <strong>Delete discussion</strong> option from the dropdown menu.
+</p>
+
+</section>
+
+<section aria-labelledby='comments' role='region'>
+<h3 id='comments'>Comments</h3>
+<h4 class='anchor' id='posting-comments'>Posting comments</h4>
+<div class='screenshot'>
+<img alt="comment box" src="https://www.loomio.org/assets/comment-box-aeb5134645ee7aaa9606378ae9107c52b40c41637fbf3cd1ad69da090d4c8989.png" />
+</div>
+
+<p>You can add your voice to a discussion using the comment box at the bottom of a discussion page.</p>
+<h4 class='anchor' id='markdown'>Markdown</h4>
+<p>Loomio uses <strong>Markdown</strong> to let you format text and embed images.
+To enable Markdown, check the box next to the word <strong>Markdown</strong> under the comment box.
+For more information on how to use Markdown, click the <a href="https://www.loomio.org/d/Wh7vHaTk/markdown-text-formatting-made-easy">"Help"</a> link next to the Markdown checkbox under the comment box, or visit the Markdown help page directly: <a href="/markdown" target="_blank">loomio.org/markdown</a>.
+</p>
+
+<h4 class='anchor' id='attaching-files'>Attaching files</h4>
+<div class='screenshot'>
+<img alt="attachment icon" src="https://www.loomio.org/assets/attachment-icon-5943fd04a0c3063aca2d692c1f8b7d375a4150c6425aeb5ed1a179f4592f6154.png" />
+</div>
+
+<p>Loomio allows you to attach files to comments in a discussion.
+You can attach a file to a comment by clicking the paperclip icon underneath the comment box at the bottom of the discussion page and selecting the file from your device.
+</p>
+
+
+<h4 class='anchor' id='mentioning'>@mentioning group members</h4>
+<div class='screenshot'>
+<img alt="mentioning a user in a comment" src="https://www.loomio.org/assets/mentioning-8b788c65dacd82185a526196b719d2089d19990618f6a36e90e00a7786eb5495.png" />
+</div>
+
+<p>If you want to get the attention of a specific person in your group, type <strong>‘@’</strong> into the comment box, followed by their name.
+Loomio will autocomplete their username.
+They will be notified that you’ve mentioned them in a comment.
+</p>
+
+<h4 class='anchor' id='editing-comments'>Editing a comment</h4>
+<p>To allow for fixing typos, you can edit a comment after it is posted.
+By default, groups are configured so that a comment can only be edited until someone else contributes a comment to the discussion.
+Group coordinators can also <a href="#group-permissions">configure groups to allow users to edit their comments at any time</a>.
+The pencil icon for editing a comment will be visible in the right-hand corner of the comment if you have permission to edit it.
+Comments that have been edited display the word <strong>Edited</strong> beneath them.
+Clicking <strong>Edited</strong> below a comment will display all previous versions of the comment.
+</p>
+
+<h4 class='anchor' id='liking-comments'>Liking a comment</h4>
+<div class='screenshot'>
+<img alt="comment with like link" src="https://www.loomio.org/assets/comment-like-1989bea4d911d4fc0225719f52144b7bba228aa809a9cf9c576991d31cb6686b.png" />
+</div>
+
+<div class='screenshot'>
+<img alt="liked comment with unlike link" src="https://www.loomio.org/assets/liked-comment-849eabb10fdbeaac81dcd91ea0ef5210c55f6193b20aebc29e92d330e653ef27.png" />
+</div>
+
+<p>Clicking <strong>Like</strong> below a comment is a simple way to let other members of your group know that you appreciate or understand what they’ve said without leaving a comment.</p>
+
+<p>When you <strong>Like</strong> a comment, the fact that you <strong>Liked</strong> it will be visible below the comment.
+You can undo the <strong>Like</strong> action by clicking <strong>Unlike</strong> on a comment you’ve previously liked.
+</p>
+
+<h4 class='anchor' id='deleting-comments'>Deleting a comment</h4>
+<div class='screenshot'>
+<img alt="comment with delete icon" src="https://www.loomio.org/assets/delete-comment-icon-9c13ff147c90516f1e99d852784fbfd9a785535443f23154615f109fe41f8b52.png" />
+</div>
+
+<p>You can delete your own comments at any time by clicking the <strong>X</strong> in the right-hand corner of the comment.
+Group coordinators can delete any comments posted in discussions taking place in groups they coordinate.
+</p>
+
+</section>
+
+<section aria-labelledby='proposals' role='region'>
+<h3 id='proposals'>Proposals</h3>
+<p>Proposals take place in a <a href="#discussion-threads">discussion thread</a>, which encompasses both the discussion and the proposal.
+There can only be one active proposal in a single discussion thread.
+Loomio encourages groups to use an initial discussion to consider multiple options.
+A proposal is one proposed course of action that naturally emerges when it looks like a one idea is gaining traction.
+</p>
+<h4 class='anchor' id='starting-proposals'>Starting a proposal</h4>
+<div class='screenshot'>
+<img alt="create proposal button" src="https://www.loomio.org/assets/create-proposal-button-f36a0396a8ecedffc7bb3ef0ded1085c33e21fa0923c44004ecf7f5c3ea33a4a.png" />
+</div>
+
+<p>When the group is ready to make a decision, you can raise a proposal by clicking the <strong>Create a proposal</strong> button on the right-hand side of the discussion page.</p>
+
+<p>When you create a new proposal you will be required to provide a <strong>title</strong>, a <strong>closing date</strong> and any relevant <strong>details</strong>.
+It’s a good idea to use a short title indicating a clear course of action so that people immediately know exactly what it means to agree or disagree.
+The <strong>Details</strong> field can be used to provide any background information so everyone has the context required to make an informed decision. </p>
+<p>Keep in mind that it’s not the end of the world if a proposal doesn’t get clear agreement immediately. If the group doesn’t love the first proposal, a new proposal can be started to address the concerns raised, and keep the process moving forward.
+The deadline on a proposal can also be extended if it looks like the decision needs some more space.</p>
+<p>Everyone will get an email notification 24 hours before a proposal closes.</p>
+
+<h4 class='anchor' id='editing-proposals'>Editing a proposal</h4>
+<div class='screenshot'>
+<img alt="new proposal form" src="https://www.loomio.org/assets/new-proposal-form-6b54eeadd79463a8c0bf4a7d0a8e7be9e25cdbbab9d0d560bd44428a6a3e1528.png" />
+</div>
+<p>Group coordinators and the proposal author can edit the proposal details until a group member states their position.
+However, the closing time for the proposal can be changed by a group coordinator or the proposal author at any time over the course of the proposal.
+A proposal can also be closed before its scheduled closing time if it becomes clear that it is not meeting the needs of the group.
+</p>
+<div class='screenshot'>
+<img alt="current decision panel with active proposal and edit link" src="https://www.loomio.org/assets/proposal-screenshot-44296190bce821889f7a26acac3d66d1a08b5f45e449529c6f8cab7bd2fc7769.png" />
+</div>
+
+<p>The <strong>Edit proposal</strong> page is accessed via the <strong>Edit</strong> link inside the <strong>Current decision</strong> panel on the right-hand side of the page.</p>
+
+<h4 class='anchor' id='stating-positions'>Stating your position</h4>
+
+<p>When you’re ready to have your say, click one of the four decision buttons under the proposal:</p>
+
+<img alt="yes icon" class="pull-left" src="https://www.loomio.org/assets/hand-yes-2dc820b1586c2c5298ea5ae8a52d2ae0dbfae612853065b8061350814cdedb38.png" />
+<p><span>Agree</span> means you’re happy with the proposal.</p>
+<img alt="abstain icon" class="pull-left" style="clear: both" src="https://www.loomio.org/assets/hand-abstain-cfaad46da16b6d7a7e4178d2838cc087646d25b8498bafd78bc69bcea476ab10.png" />
+<p><span>Abstain</span> means you’re unsure, or you’re happy for the group to decide without you.</p>
+<img alt="no icon" class="pull-left" src="https://www.loomio.org/assets/hand-no-d1346ff09f9f953e0eb600a9b4453b96ca36bf60cdedd1597321bf8d76a3bb85.png" />
+<p><span>Disagree</span> means you think there might be a better alternative, but you’re willing to go with the group’s decision.</p>
+<img alt="block icon" class="pull-left" src="https://www.loomio.org/assets/hand-block-65d7d14b331b271813484e0702d658575cffcae2531981022d83bd06c1fd5f69.png" />
+<p><span>Block</span> means you’ve got serious objections and you’ll be extremely unhappy if this proposal goes ahead.</p>
+
+<div class='screenshot'>
+<img alt="position statements" src="https://www.loomio.org/assets/position-statements-cf00dc38d0c5a545cb161577bd785b8cd38dbeefebced9e75ca11224289bb424.png" />
+</div>
+
+<p>When you’ve selected your position, you will be prompted to give a brief explanation as to why you feel this way.</p>
+<p>Underneath the pie graph, you can see what everyone else thinks.
+This makes it easy to catch up with the discussion.
+As new information comes to light, you can change your position at any time over the course of the proposal.</p>
+
+<h4 class='anchor' id='changing-positions'>Changing your position</h4>
+<div class='screenshot'>
+<img alt="position statement with edit link" src="https://www.loomio.org/assets/edit-position-10bca2823f840031f04954e6b7c5fd538cd2afffc2fb4af3d5ab7a104ce2f9e6.png" />
+</div>
+
+<p>If you wish to change your position you can do so by clicking <strong>edit</strong> next to your position statement in the <strong>Current decision</strong> panel on the right-hand side of the page.</p>
+
+
+<h4 class='anchor' id='setting-outcome'>Setting a proposal outcome</h4>
+<div class='screenshot'>
+<img alt="proposal outcome input" src="https://www.loomio.org/assets/outcome-statement-b9ff5b0291a7837b2b0f1b61d617859d11742f8add8be93d913a64b213d6caad.png" />
+</div>
+
+<p>When a proposal ends, it will remain on the right-hand side of the discussion page, inside a <strong>Previous decisions</strong> panel.
+An editable outcome statement field will appear underneath the proposal title, and the person who raised the proposal will be prompted via email to provide an outcome statement for their proposal.
+Proposal outcomes can only be set by the person who started the proposal or the coordinators of the group.
+Setting a proposal outcome is a good opportunity to get all group members up to speed, so everyone understands what the implications of the proposal are, and they are aware of any next steps.
+When the proposal outcome statement is submitted everyone in the group will receive an email notifying them of the outcome.
+</p>
+
+<h4 class='anchor' id='closing-proposals'>Closing a proposal</h4>
+<div class='screenshot'>
+<img alt="current decision panel with active proposal and edit link" src="https://www.loomio.org/assets/proposal-screenshot-44296190bce821889f7a26acac3d66d1a08b5f45e449529c6f8cab7bd2fc7769.png" />
+<img alt="close proposal button" src="https://www.loomio.org/assets/close-proposal-61e675f3c3bed0f056448ed4170a3b9498ebe767360348dc93636877cb47512d.png" />
+</div>
+
+<p>Only the group member who started the proposal and the coordinators of the group can close an active proposal.
+If you want to close a proposal early and you have the correct permissions, click <strong>Edit</strong> on the right-hand side of the <strong>Current decision</strong> panel.
+At the bottom of the <strong>Edit proposal</strong> form on the subsequent page there will be an option to close the proposal early.
+When a proposal is closed early it will remain on the right-hand side of the discussion page in a <strong>Previous decisions</strong> panel, but participants will no longer be able to submit their positions.
+</p>
+
+
+<h4 class='anchor' id='previous-decisions'>Closed proposals/previous decisions</h4>
+<div class='screenshot'>
+<img alt="previous decisions panel with closed proposal" src="https://www.loomio.org/assets/previous-decisions-01a04ad83881a62e2bebe3d5a0b69d2aeac1ff933be162347f8488f443c16683.png" />
+</div>
+
+<p>When a new proposal is started, any previous proposals will be reduced to a summary (showing proposal title, the decision pie and your position) in a <strong>Previous decisions</strong> panel beneath the <strong>Current decision</strong> panel.</p>
+
+</section>
+
+<section aria-labelledby='subgroups' role='region'>
+<h3 id='subgroups'>Sub-groups</h3>
+<div class='screenshot'>
+<img alt="create subgroup link in subgroups panel on group page" src="https://www.loomio.org/assets/create-subgroup-971a4bcb66dd1b921894ab180a8a9deab73618bedf6e266db90051e35261c872.png" />
+</div>
+
+<p>If you wish to create a sub-group within a group and you have the <a href="#group-permissions">correct permissions</a>, you can do so by clicking the <strong>Create a sub-group</strong> link in the <strong>Sub-groups</strong> panel on the right-hand side of your group page.</p>
+
+<p>Often you will have a need for multiple Loomio groups that are all related to one organisation, but you may find that each group has different needs for membership, privacy and permissions.
+This is where sub-groups are useful.
+</p>
+
+<h4 class='anchor' id='subgroup-privacy'>Sub-group privacy</h4>
+<div class='screenshot'>
+<img alt="new subgroup form" src="https://www.loomio.org/assets/subgroup-settings-fbdba9d3096827263de47c564cae0755700c0e903bbd018f2f033ea5cbf34e5b.png" />
+</div>
+
+<p>Sub-group settings are the same as <a href="#group-settings">group settings</a>, but with slightly different privacy options relating to sub-group visibility relative to the parent group.</p>
+<p>The options underneath <strong>Who can find this group?</strong> (in the <strong>Privacy</strong> section of the new sub-group form) determine whether people in the parent group can see the sub-group.
+When the <strong>People in [parent group]</strong> option is selected then the group will be visible in the <strong>Sub-groups</strong> panel on the parent group page, or when members of the parent navigate to the sub-group page, even if they are not members of the sub-group.</p>
+<p>There is also a privacy option relating to the sub-group's discussion privacy.
+If you decide that your group should be visible to members of the parent but not public, then in the <strong>Who can see discussions?</strong> segment of the <strong>Privacy</strong> settings, you can choose whether you want discussions to be visible to members of the parent, or to members of the sub-group only.
+If you choose to make discussions visible to sub-group members only, then members of the parent will be able to view the sub-group's page, but not see any of the sub-group's discussions threads.</p>
+<p>When the <strong>People in [parent group]</strong> option is deselected, only members of the sub-group will be able to find it.</p>
+
+<div class='screenshot'>
+<img alt="edit group settings option in group dropdown" src="https://www.loomio.org/assets/edit-subgroup-04f6cc4e5053f49fef502d30be43c8e5e1d7a660e1cea7fe5410e6d139bc22b6.png" />
+</div>
+
+<p>Editing sub-group settings is restricted to coordinators.
+If you are a sub-group coordinator and you wish to change your sub-group's settings, click <strong>Options</strong> on the right-hand side of your sub-group's page, and then select <strong>Edit group settings</strong> from the dropdown menu.
+</p>
+</section>
+
+<section aria-labelledby='dashboard' role='region'>
+<h3 id='dashboard'>Your dashboard</h3>
+<p>Your dashboard is your home page. It gives you an overview of what is happening in your groups.
+It is the page you see when you first log in to Loomio. Your dashboard displays content from your groups in a prioritised list.
+Open proposals are at the top, followed by all of the discussion threads from all of the groups you are a member of, sorted by most recent activity.
+If a discussion or proposal title is grey then new activity has taken place since you last viewed that particular thread.
+Numbers above a comment icon reflect how many new comments have been posted since you last viewed the corresponding page.
+A pie graph is a reflection of the state of the pie graph in the corresponding proposal.
+When numbers appear above the pie graph this reflects the number of new position statements that have been posted since you last viewed the corresponding page.
+If you have stated your position on a particular proposal, you will see an icon that represents your position in front of the corresponding proposal title.
+</p>
+
+<p><img alt="dashboard" src="https://www.loomio.org/assets/dashboard-screenshot-daba77263020ddb2d70b12b7b27d9caeadf3e481d790114719c7bf076dcec5f8.png" /></p>
+
+</section>
+
+<section aria-labelledby='keeping-up-to-date' role='region'>
+<h3 id='keeping-up-to-date'>Keeping up to date</h3>
+<h4 class='anchor' id='volume'>Volume</h4>
+<div class='screenshot'>
+<img alt="group volume options dropdown" src="https://www.loomio.org/assets/group-volume-16f82bd697341c17243617881ab80fdd650b73f3766324e28ac25bef477a58e7.png" />
+</div>
+
+<p>Volume controls how much you hear from a group or a discussion.</p>
+<p>There are four settings for both <strong>Group Volume</strong> and <strong>Discussion Volume</strong>.</p>
+<p><strong>Group Volume</strong> can be changed from the group page by clicking the button in the <strong>Volume</strong> panel on the right-hand side of the page, and selecting one of the four options:</p>
+
+<ul id='volume-options'>
+<li>
+<strong>Loud</strong>
+<span> - this will email you whenever there is activity (comments, votes, new discussions or proposals, and proposal outcomes) in the group.</span>
+</li>
+<li>
+<strong>Normal</strong>
+<span> - this will only email you with important activity: new discussions or proposals and proposal outcomes.</span>
+</li>
+<li>
+<strong>Quiet</strong>
+<span> - this switches all the emails off. You’ll see new group activity on the dashboard.</span>
+</li>
+<li>
+<strong>Mute</strong>
+<span> - this switches all emails off. You’ll only be notified if someone @mentions you. This will also remove the group from your dashboard and the <a href="#yesterday-on-loomio">“Yesterday on Loomio”</a> digest email.</span>
+</li>
+</ul>
+<p>When you join a new group, your volume settings for that particular group will be <strong>Normal</strong>.
+This means you will be emailed when a new discussion is started, when a proposal is raised, or when a proposal outcome is set.
+</p>
+
+<div class='screenshot'>
+<img alt="options for group volume default settings" src="https://www.loomio.org/assets/group-volume-settings-b7f40dd1d66209dd69c73b2a1b5efb8921ed9a7131a3c8c93904116681a3f205.png" />
+</div>
+
+<p>You can set the volume for all of your groups from your <strong><a href="#email-settings">"Email settings"</a></strong> page.</p>
+
+<div class='screenshot'>
+<img alt="discussion volume options dropdown" src="https://www.loomio.org/assets/discussion-volume-9aed01a7ef302d238dac454ef4b6849a7750ca3ded1470c0a8f681af3c6ebc09.png" />
+</div>
+
+<p>When a discussion starts, it will have the same volume setting as its group.
+You can customise the <strong>Discussion Volume</strong> of a particular discussion by clicking the button displaying the current volume (on the right-hand side of the discussion page) and selecting one of the four options.</p>
+<p>When you participate in a discussion, the <strong>Discussion Volume</strong> will be changed to <strong>Loud</strong>, so all further activity will be emailed to you.
+You can change this behaviour from your <strong><a href="#email-settings">"Email settings"</a></strong> page.</p>
+
+<div class='screenshot'>
+<img alt="email footer with links" src="https://www.loomio.org/assets/email-footer-fe93fb19ccd97b9eb8f4d54f9ce3e9fe8e4b8d41796eacb807291676ac9e853e.png" />
+</div>
+
+<p>You can reply to any comments you receive directly via email and your replies will be posted in the relevant Loomio discussion.
+Alternatively you can choose to view the comment as part of the discussion on Loomio by clicking the <strong>view it on Loomio</strong> link in the footer of the email.
+</p>
+
+<h4 class='anchor' id='email-settings'>Email settings</h4>
+<div class='screenshot'>
+<img alt="email settings option in user dropdown" src="https://www.loomio.org/assets/email-settings-d46274c50ccc13badf189ad90a7f051a324febaa2e2cfd7c96e1ef5925d4202a.png" />
+</div>
+
+<p>Your <strong>Email settings</strong> page enables you to create email notification settings for groups and discussions you are participating in.
+To visit your <strong>Email settings</strong> page, click your name at the top right of the page, then <strong>Email settings</strong>.
+</p>
+
+<h4 class='anchor' id='yesterday-on-loomio'>Yesterday on Loomio</h4>
+<div class='screenshot'>
+<img alt="email settings page" src="https://www.loomio.org/assets/email-settings-page-f41a95cb4b35fe74f0bd8ca1a1fa728ab217d50a94005e41c4fae7fb51a7ed98.png" />
+</div>
+
+<p>The <strong>Yesterday on Loomio</strong> email is a daily summary of content you haven’t read from the previous day.
+The email contains everything that is not muted.
+You can turn this on or off from the <strong><a href="#email-settings">"Email settings"</a></strong> page.
+</p>
+
+</section>
+
+<section aria-labelledby='user-profile' role='region'>
+<h3 id='user-profile'>Your user profile</h3>
+<div class='screenshot'>
+	<img alt="profile option in user dropdown" src="https://www.loomio.org/assets/user-profile-349bd2be671b3fb20d0df3442e103f74894e5dc696e8985613d2a1709ecf918b.png" />
+</div>
+
+<p>Your profile page is what other users will see when they click your name.
+It displays your name, <a href="#profile-photo">profile image</a>, <a href="#usernames">username</a> and lists the public groups you belong to.
+You can visit your profile page by clicking your name at the top right of the page, and then <strong>Profile</strong>.
+Preview what other users will see by clicking the <strong>view profile</strong> link.
+</p>
+
+
+<h4 class='anchor' id='language-settings'>Language settings</h4>
+<p>Loomio is available in many languages.
+It will detect your browser’s language settings, or you can manually set your preferred language by visiting your <a href="#user-profile">profile page</a> and selecting your language from the <strong>Language</strong> dropdown.
+</p>
+<h4 class='anchor' id='usernames'>Usernames</h4>
+<p>Your username is the name people will use to mention (<a href="#mentioning">@mention</a>) you in comments.
+You can change your username by editing the <strong>Username</strong> field on your <a href="#user-profile">profile page</a> and clicking the <strong>Update settings</strong> button.
+</p>
+
+<h4 class='anchor' id='updating-personal-settings'>Updating your personal settings</h4>
+<div class='screenshot'>
+	<img alt="profile page" src="https://www.loomio.org/assets/profile-page-197638d84fa45078311410b5a2377b92fce9e6701a345313407d94173d384ede.png" />
+</div>
+<p>You can update the name, username, email address and language settings associated with your account by editing the corresponding fields on your <a href="#user-profile">profile page</a>, and clicking the <strong>Update settings</strong> button.</p>
+<h4 class='anchor' id='profile-photo'>Uploading a profile photo</h4>
+<p>When you first create a Loomio account, your initials will be the default image associated with your profile.
+You can upload a profile photo by clicking the <strong>Upload a new image</strong> button in the <strong>Picture</strong> section of your <a href="#user-profile">profile page</a>.
+If you have a <a href="https://en.gravatar.com">Gravatar</a> then you can use that in place of an uploaded image or the default initials by clicking <strong>Use Gravatar</strong>.
+</p>
+
+
+<h4 class='anchor' id='changing-passwords'>Changing your password</h4>
+<p>If you are logged in to Loomio you can change your password at any time by following the <strong>Change your password</strong> link on your <a href="#user-profile">profile page</a>.
+If you are logged out then you can use the <strong>Forgot your password?</strong> link on the <a href="http://loomio.org/users/sign_in">Log in page</a>.
+</p>
+
+<h4 class='anchor' id='account-deactivation'>Deactivating your account</h4>
+<div class='screenshot'>
+<img alt="deactivate account button" src="https://www.loomio.org/assets/deactivation-button-91303f7886c7a0661ac78bb0ade211186fced8019a32f8198a4f9c0764ed9d85.png" />
+</div>
+
+<p>If you want to deactive your Loomio account you must make sure that you are not the sole coordinator of any groups, otherwise you will be prevented from doing so until you appoint another group coordinator, or archive the group.
+If you are not the sole coordinator of any Loomio groups, then you can deactivate your account by clicking the <strong>Deactivate account</strong> button on your <a href="#user-profile">profile page</a>.</p>
+<p>Once your account has been deactivated:</p>
+
+<ul class='deactivation'>
+<li>you will no longer be listed as a member of any groups</li>
+<li>comments, proposals and discussions you’ve made will remain but your name will be removed from them</li>
+<li>you will no longer receive Loomio-related emails</li>
+<li>you will need to contact us to reactive your account</li>
+
+</ul>
+
+<h4 class='anchor' id='account-reactivation'>Reactivating your account</h4>
+
+<p>Account reactivation can only be done by a member of the Loomio team.
+To reactivate your deactivated account, contact the Loomio team by sending an email to <a href="/cdn-cgi/l/email-protection#30535f5e44515344705c5f5f5d595f1e5f4257"><span class="__cf_email__" data-cfemail="70131f1e04111304301c1f1f1d191f5e1f0217">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.
+</p>
+
+</section>
+
+<section aria-labelledby='leaving-groups' role='region'>
+<h3 id='leaving-groups'>Leaving a group</h3>
+<div class='screenshot'>
+<img alt="leave group option in group dropdown" src="https://www.loomio.org/assets/leave-group-fef547c6e9241b6cf3e35947d6b41cbe348976bc2ac9c0550ccd4d21301df1b0.png" />
+</div>
+
+<p>If you wish to leave your group then you must ensure that you are not the only group coordinator.
+If you are the sole coordinator of your group, you will be prevented from leaving until you appoint another coordinator or deactivate the group.
+If you are not the sole coordinator of a group then you can leave the group by selecting the <strong>Leave group</strong> option from the <strong>Options</strong> menu on the group page.
+</p>
+
+</section>
+
+<section aria-labelledby='translation' role='region'>
+<h3 id='translation'>Translation</h3>
+<p>The translation of Loomio is done by an amazing community of generous volunteers, using a tool called <a href="https://www.transifex.com">Transifex</a>.
+If you’re interested in taking part in the translation process a good place to start is reading our <a href="https://github.com/loomio/loomio/wiki/Translation">Translation guide</a> and joining our <a href="https://www.loomio.org/g/cpaM3Hsv/loomio-community-translation">Community Translation sub-group</a>.
+You can request membership from the group page and your request will be approved by group coordinator. You can introduce yourself and get a sense of who is in the wider translation community in <a href="https://www.loomio.org/g/cpaM3Hsv/loomio-community-translation">this introductory discussion</a>.</p>
+<p>If you have any questions about the translation process contact <a href="/cdn-cgi/l/email-protection#177a7e6f577b78787a7e7839786570"><span class="__cf_email__" data-cfemail="a1ccc8d9e1cdcececcc8ce8fced3c6">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.</p>
+
+
+</section>
+
+<section aria-labelledby='security' role='region'>
+<h3 id='security'>Privacy and security</h3>
+<p>Loomio is a password-protected service, and each Loomio account is tied to a verified email address. Private groups are invite only, meaning a group coordinator will be inviting people in by their email addresses. Each user sets up an account with a password. Private groups are viewable only to members of the group.</p>
+<p>Loomio is hosted by Heroku in the US, with cloud services provided by AWS/EC2 and encryption and authenticity provided by SSL.</p>
+<p>We use secure HTTP protocol (HTTPS), providing bidirectional encryption. Our privacy, security and backup systems meet industry best practice.</p>
+<p>For more information about privacy, service hosting and data security please take a look at our privacy page: <a href="/privacy">loomio.org/privacy</a>.</p>
+<p>If you have any specific security concerns we recommend installing your own instance of Loomio.</p>
+
+</section>
+
+<section aria-labelledby='contributing' role='region'>
+<h3 id='contributing'>Contributing to Loomio</h3>
+<p>There are currently several avenues through which people can make direct contributions to Loomio:</p>
+<ul id='how-to-contribute'>
+<li>
+<strong>Open-source development</strong>
+</li>
+<p>If you're interested in contributing to the Loomio codebase, the first place to start is to take a look at our <a href="https://github.com/loomio/loomio">Github repository</a>.
+We use <a href="https://github.com/loomio/loomio/issues">Github's issue tracker</a> to track tasks, enhancements and bugs, and we're always delighted to support external contributors!
+There is an installation guide to get you started on our <a href="https://github.com/loomio/loomio/wiki">Github wiki</a> and a public <a href="https://www.loomio.org/g/C7I2YAPN/loomio-community-installing-loomio">Loomio Community sub-group dedicated to installation support and assistance</a>, in which you can ask any questions that might arise along the way.
+</p>
+<li>
+<strong>
+<a href='#translation'>Translation</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='#loomio-community'>The Loomio Community</a>
+</strong>
+</li>
+</ul>
+</section>
+
+<section aria-labelledby='loomio-community' role='region'>
+<h3 id='loomio-community'>The Loomio Community</h3>
+<p><img alt="loomio community group page" src="https://www.loomio.org/assets/loomio-community-1c4ebb8d43a3fd7387e3a1b868f6b5d17ce765b946b5fc28a02cd79abbddce51.png" /></p>
+<p>The <a href="https://www.loomio.org/g/WmPCB3IR/loomio-community">Loomio Community</a> is a public group for the whole community of Loomio users and supporters to get together, discuss the development of Loomio and collaborate.
+Anyone can join, simply request membership from the <a href="https://www.loomio.org/g/WmPCB3IR/loomio-community">group page</a> and a coordinator will approve your request.</p>
+<p>There are a number of public Loomio Community sub-groups dedicated to different strands of the community ecosystem.
+These groups are open for anyone to join; whether you're interested in contributing, or just curious about Loomio.
+There is a <a href="https://www.loomio.org/g/cpaM3Hsv/loomio-community-translation">translation sub-group</a>, a <a href="https://www.loomio.org/g/GN7EFQTK/loomio-community-feature-ideas">Feature ideas sub-group</a>, an <a href="https://www.loomio.org/g/C7I2YAPN/loomio-community-installing-loomio">Installing Loomio sub-group</a> for support and assistance with local installations, and a sub-group for <a href="https://www.loomio.org/g/7jWVDr04/loomio-community-group-coordinators">Loomio group coordinators</a> to share faciliation tips and tricks, so we can collectively grow our knowledge and build shared resources around the best ways to use Loomio together.</p>
+<p>To find out more about how the Loomio Community works take a look at the <a href="https://www.loomio.org/discussions/5200">"How this community works discussion"</a> in the Loomio Community group.</p>
+
+</section>
+
+<section aria-labelledby='loomio-development' role='region'>
+<h3 id='loomio-development'>Keeping up with Loomio Development</h3>
+<p>There are several ways to keep track of Loomio progress:</p>
+<ul id='progress-resources'>
+<li>
+<strong>
+<a href='https://github.com/loomio/loomio'>The main Loomio development repository</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='https://github.com/loomio/loomio/issues'>Loomio issue tracker on Github</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='https://loomio.org/angular'>Loomio 1.0-beta in action</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='https://trello.com/b/tM6QGCLH/loomio-roadmap'>The public roadmap</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='https://twitter.com/loomio'>Loomio on Twitter</a>
+</strong>
+</li>
+<li>
+<strong>
+<a href='https://codeclimate.com/github/loomio/loomio'>Loomio’s Code Climate</a>
+</strong>
+</li>
+</ul>
+</section>
+
+<section aria-labelledby='faq' role='region'>
+<h2 id='faq'>Frequently asked questions</h2>
+
+<h3>Where is my confirmation email?</h3>
+<p>If you don’t receive an email confirming your group registration, you might need to check your spam or junk mail folder – sometimes they end up in there.</p>
+<h3>I’ve forgotten my password, what do I do?</h3>
+<p>If you’ve forgotten your password click the <strong>Forgot your password?</strong> link on the <a href="https://www.loomio.org/users/sign_in">Log in page</a>.
+You will be asked to enter the email address associated with your Loomio account and password reset instructions will be sent to this email address.
+</p>
+<h3>Do I need a Loomio account to participate in discussions?</h3>
+<p>Yes. Even though there are different levels of group privacy, everyone who wishes to participate in a Loomio group needs to have a Loomio account.</p>
+<h3>Does it cost to use Loomio?</h3>
+<p>Check out our pricing page at <a href="https://www.loomio.org/pricing">loomio.org/pricing</a>.</p>
+<h3>Can I sign in with Google, Facebook or Twitter?</h3>
+<p>Yes, see <a href="https://www.loomio.org/help#single-sign-on">Single sign-on</a> in our <a href="https://www.loomio.org/help">help documentation</a>.</p>
+<h3>How can I set up my own instance of Loomio?</h3>
+<p>There is an installation guide on our <a href="https://github.com/loomio/loomio/wiki">Github wiki</a> and a <a href="https://www.loomio.org/g/C7I2YAPN/loomio-community-installing-loomio">Loomio Community sub-group</a> dedicated to support and assistance with local installations.
+If you're thinking about installing your own version of Loomio, we highly recommend joining this group.
+</p>
+<h3>What size groups work well on Loomio?</h3>
+<p>Loomio currently works well for groups up to about 1000 people.</p>
+<h3>I have approved membership requests for people who wanted to join my group but they haven’t shown up as members, what’s going on?</h3>
+<p>If the people who have requested membership to your group don't have existing Loomio accounts they will need to create accounts before they can become group members.
+After you approve their membership requests, they will receive a confirmation email and following the link in this email will prompt them to create a Loomio account.
+When their accounts have been created they will show up as members of your group.
+</p>
+<h3>When I reply to a discussion via email my signature is included in my comment, how can I stop it?</h3>
+<p>There is currently no official standard for identifying email signatures from the rest of the email body. To a computer the whole email is just a block of text.
+The easiest method we have for marking the end of the email body and the beginning of the signature is the double-dash method popularised by Gmail, which involves inserting a double-dash ('--') on it's own line between the body of an email and the signature.
+Other common formats are recognised too, but Gmail's method is very easy to implement. Most programs trying to separate email body from signature (including Loomio) will correctly import the body if these dashes are included in the right place.</p>
+<p>To be sure that your email signature is not included in your comment when you reply by email, you need to begin your signature with a double hyphen on its own line. For example:</p>
+
+<p><img alt="email signature block with preceding double-dash" class="img-responsive" id="screenshot" src="https://www.loomio.org/assets/email-signature-c9755c6d379f8039024ea7ef0a995c3bccbbbe2a18bc73e3d24b110c2e76f85e.png" /></p>
+<h3>How come when I search for a group I know exists, it doesn’t come up on the Explore page?</h3>
+<p>If the group you are searching for is private, then it will not be publicly searchable and an invitation will be required to join.</p>
+<h3>Will Loomio work on my mobile device?</h3>
+<p>Loomio is mobile responsive, so it will work on any device through a browser.</p>
+<h3>How can I reactivate my account?</h3>
+<p>Account reactivation can only be done by a member of the Loomio team. To have your account reactivated contact us using the form below, or send an email to <a href="/cdn-cgi/l/email-protection#72111d1c06131106321e1d1d1f1b1d5c1d0015"><span class="__cf_email__" data-cfemail="5e3d31302a3f3d2a1e32313133373170312c39">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.
+</p>
+<h3>I’ve deactivated my group, can I restore it?</h3>
+<p>Deactivated groups can only be restored by a member of the Loomio team. To have a deactivated group restored contact us using the form below, or send an email to <a href="/cdn-cgi/l/email-protection#94f7fbfae0f5f7e0d4f8fbfbf9fdfbbafbe6f3"><span class="__cf_email__" data-cfemail="eb8884859f8a889fab878484868284c584998c">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.
+</p>
+<h3>What if I have a feature to suggest?</h3>
+<p>You might be interested in taking a look at our <a href="http://www.loomio.org/roadmap">public roadmap</a>, which documents what’s coming up in the development pipeline.
+We also have an open Loomio Community sub-group dedicated to <a href="https://www.loomio.org/g/GN7EFQTK/loomio-community-feature-ideas">Feature Ideas</a>.
+If you don’t see the feature you wish to suggest on our public roadmap, and you are interested in participating in discussions around the development of Loomio, you might want to join this group.
+</p>
+<h3>What’s coming up in the Loomio development pipeline?</h3>
+<p>To find out what our developers are working on and what’s coming up in the development pipeline, take a look at our <a href="https://www.loomio.org/roadmap">public roadmap</a>.
+You can vote for the ideas you want to see prioritised, and comment with your feedback.
+</p>
+<h3>Is there a Loomio API?</h3>
+<p>As of April 2015 we're actively developing and using the API that the new Loomio 1.0 client will use. This implements everything a Loomio client talking to the web service would need.
+There is currently no server to server api, but Loomio is open source and we welcome additions. So feel free to scratch your itch.
+</p>
+<h3>Is it possible to have a Loomio subdomain?</h3>
+<p>Yes. We can, for example, set up <strong>[your-group-name].loomio.org</strong> as the URL for your group. <a href='/cdn-cgi/l/email-protection#bbd8d4d5cfdad8cffbd7d4d4d6d2d495d4c9dc'>Contact us</a> if you're interested.</p>
+</div>
+</section>
+
+</div>
+</body>
+</html>
